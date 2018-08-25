@@ -26,10 +26,16 @@ sudo raspi-config
 * 1. Option 1 (Password). Important if you want to change your password
 * 2. Option 2 (Network). Usefull to config your wifi network
 * 3. Option 4 (Localisation). Change your Locale, Timezone and Keyboard Layout
-* 4. option 5 (Interfacing). In submenu, Enable what you need (PI Camera, SSH**, VNC?)
+* 4. option 5 (Interfacing). In submenu, Enable what you need (PiCamera, SSH**, VNC?)
 Restart you RASPI
 
 
+**CONFIG PICAMERA** [Step by Step Installation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
+
+Enable PiCamera inteface from raspi-config
+```
+sudo apt-get install python3-picamera
+```
 
 
 **VNC ACCESS** [Step by Step Configuration](https://www.realvnc.com/es/connect/docs/raspberry-pi.html#raspberry-pi-setup) (optional)
@@ -42,6 +48,3 @@ sudo systemctl enable vncserver-x11-serviced.service
 ```
 
 
-**CONFIG PICAMERA** [Step by Step Installation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
-1. sudo raspi-config. --> navigate to Interfacing Options > Camera and select 'Enabled' or 'Yes'
-2. sudo apt-get install python3-picamera
