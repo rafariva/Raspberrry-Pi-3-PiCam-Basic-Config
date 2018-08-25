@@ -24,10 +24,12 @@ sudo raspi-config
 ```
 ![raspi_config](/images/wizard.PNG)
 
-* 1. Option 1 (Password). Important if you want to change your password
-* 2. Option 2 (Network). Usefull to config your wifi network
-* 3. Option 4 (Localisation). Change your Locale, Timezone and Keyboard Layout
-* 4. option 5 (Interfacing). In submenu, Enable what you need (PiCamera, SSH**, VNC?)
+Most important configuration
+
+1. Option 1 (Password). Important if you want to change your password
+2. Option 2 (Network). Usefull to config your wifi network
+3. Option 4 (Localisation). Change your Locale, Timezone and Keyboard Layout
+4. option 5 (Interfacing). In submenu, Enable what you need (PiCamera, SSH**, VNC?)
 
 Then, Restart your RASPI
 
