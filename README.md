@@ -24,6 +24,7 @@ sudo apt-get install python3-pip
 ```
 alias py=python3
 ```
+on File .bashrc, add: alias py=python3
 
 
 3. Run config 'wizard'
