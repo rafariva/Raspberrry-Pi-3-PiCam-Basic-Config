@@ -7,6 +7,7 @@
 4. Open Etcher and select from your hard drive the Raspberry Pi file (.img or .zip) you wish to write to the SD card.
 5. Select the SD card you wish to write your image to.
 6. Review your selections and click 'Flash!' to begin writing data to the SD card (takes between 5 to 10 minutes).
+![etcher](/images/etcher.png)
 
 
 **CONFIG YOUR RASPPI**
@@ -20,6 +21,12 @@ sudo apt-get upgrade
 ```
 sudo raspi-config
 ```
+![raspi_config](/images/wizard.png)
+2.1 Option 1 (Password). Important if you want to change your password
+2.2 Option 2 (Network). Usefull to config your wifi network
+2.3 Option 4 (Localisation). Change your Locale, Timezone and Keyboard Layout
+2.4 option 5 (Interfacing). In submenu, Enable what you need (PI Camera, SSH**, VNC?)
+Restart you RASPI
 
 
 
