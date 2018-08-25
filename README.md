@@ -85,7 +85,9 @@ sudo apt-get install libtiff5
 sudo apt-get install libjasper1
 sudo apt-get install openexr
 sudo apt-get install libqtgui4
-apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools
+sudo apt-get install libqt4-test
+sudo apt-get install libgstreamer1.0-0 gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-libav gstreamer1.0-doc gstreamer1.0-tools
+pip3 install keras
 
 ```
 
