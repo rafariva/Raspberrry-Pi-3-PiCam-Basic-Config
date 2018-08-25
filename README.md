@@ -18,7 +18,14 @@
 sudo apt-get update
 sudo apt-get upgrade
 ```
-2. Run config 'wizard'
+
+2. Alias python3 as default
+```
+alias py=python3
+```
+
+
+3. Run config 'wizard'
 ```
 sudo raspi-config
 ```
