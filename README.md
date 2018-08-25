@@ -1,4 +1,4 @@
-# raspberrrypicam
+# Raspberry Pi 3
 **PREPARE YOUR RASPBERRY PI** [Step by Step Guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
 * 1 Download the [image](https://www.raspberrypi.org/downloads/) for your raspberry pi
@@ -22,7 +22,7 @@ sudo apt-get upgrade
 ```
 sudo raspi-config
 ```
-![raspi_config](/images/wizard.PNG | width=300)
+![raspi_config](/images/wizard.PNG)
 
 * 1. Option 1 (Password). Important if you want to change your password
 * 2. Option 2 (Network). Usefull to config your wifi network
