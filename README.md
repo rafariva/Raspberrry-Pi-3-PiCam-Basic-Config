@@ -49,6 +49,31 @@ Enable PiCamera inteface from raspi-config
 sudo apt-get install python3-picamera
 ```
 
+Example Code for taking photo:
+```
+import picamera
+from time import sleep
+
+camera = picamera.PiCamera()
+camera.resolution = (640,480)
+#camera.framerate = 24
+camera.start_preview()
+sleep(0.1)
+
+#camera.annotate_text_size = 50
+#camera.annotate_text = "Hello world!"
+#camera.image_effect = 'colorswap'
+#camera.brightness = 70
+#camera.contrast = 50
+
+camera.capture('image.jpg')
+camera.stop_preview()
+
+```
+
+Example Code for Video:
+```
+```
 
 **VNC ACCESS** [Step by Step Configuration](https://www.realvnc.com/es/connect/docs/raspberry-pi.html#raspberry-pi-setup) (optional)
 
