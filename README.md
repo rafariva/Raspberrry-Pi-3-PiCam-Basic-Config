@@ -1,17 +1,17 @@
 # Raspberry Pi 3
 **PREPARE YOUR RASPBERRY PI** [Step by Step Guide](https://www.raspberrypi.org/documentation/installation/installing-images/)
 
-* 1 Download the [image](https://www.raspberrypi.org/downloads/) for your raspberry pi
-* 2 Download [Etcher](https://etcher.io/) and install it
-* 3 Connect an SD card reader with the SD card inside.
-* 4 Open Etcher and select from your hard drive the Raspberry Pi file (.img or .zip) you wish to write to the SD card.
-* 5 Select the SD card you wish to write your image to.
-* 6 Review your selections and click 'Flash!' to begin writing data to the SD card (takes between 5 to 10 minutes).
+1. Download the [image](https://www.raspberrypi.org/downloads/) for your raspberry pi
+2. Download [Etcher](https://etcher.io/) and install it
+3. Connect an SD card reader with the SD card inside.
+4. Open Etcher and select from your hard drive the Raspberry Pi file (.img or .zip) you wish to write to the SD card.
+5. Select the SD card you wish to write your image to.
+6. Review your selections and click 'Flash!' to begin writing data to the SD card (takes between 5 to 10 minutes).
 
 ![etcher](/images/etcher.PNG)
 
 
-**CONFIG YOUR RASPPI**
+**CONFIG YOUR RASPI**
 
 1. Update all libraries (takes between 5 to 10 minutes)
 ```
@@ -28,7 +28,8 @@ sudo raspi-config
 * 2. Option 2 (Network). Usefull to config your wifi network
 * 3. Option 4 (Localisation). Change your Locale, Timezone and Keyboard Layout
 * 4. option 5 (Interfacing). In submenu, Enable what you need (PiCamera, SSH**, VNC?)
-Restart you RASPI
+
+Then, Restart your RASPI
 
 
 **CONFIG PICAMERA** [Step by Step Installation](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera/4)
