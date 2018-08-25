@@ -83,6 +83,8 @@ sudo apt-get install libatlas-base-dev
 sudo apt-get install libwebp6
 sudo apt-get install libtiff5
 sudo apt-get install libjasper1
+sudo apt-get install openexr
+
 ```
 
 **VNC ACCESS** [Step by Step Configuration](https://www.realvnc.com/es/connect/docs/raspberry-pi.html#raspberry-pi-setup) (optional)
