@@ -88,11 +88,12 @@ pip3 install tensorflow
 pip3 install keras
 pip3 install requests
 
+pip3 install opencv-python
 pip3 install h5py
 pip3 install lxml
+
 sudo apt-get install libxml2-dev
 sudo apt-get install libxslt-dev
-
 sudo apt-get install libhdf5-serial-dev
 sudo apt-get install libatlas-base-dev
 sudo apt-get install libwebp6
