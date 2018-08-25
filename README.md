@@ -76,6 +76,10 @@ Example Code for Video:
 ```
 ```
 
+**AUTORUN PY**
+1. edit:  sudo nano /etc/profile
+2. add at the end:  sudo python /home/pi/myscript.py
+
 
 **LIBRARIES**
 
