@@ -77,8 +77,14 @@ Example Code for Video:
 ```
 
 **AUTORUN PY**
-1. edit:  sudo nano /etc/profile
-2. add at the end:  sudo python /home/pi/myscript.py
+1. create a sh file (chmod 755)
+```
+#!/bin/sh
+
+python3 /home/pi/script.py
+```
+2. create a crontab: crontab -e
+3. add at the end:   sh /home/pi/launcher.sh
 
 
 **LIBRARIES**
