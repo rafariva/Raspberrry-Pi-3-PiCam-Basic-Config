@@ -85,8 +85,10 @@ sudo apt-get -y install fbi
 ```
 #view a single image
 fbi -a myphoto.jpg
+
 #view all images
 fbi -a *.jpg
+
 #presentation all images every 5secs
 fbi -a -t 5 *.jpg
 ```
