@@ -76,6 +76,22 @@ Example Code for Video:
 ```
 ```
 
+**VIEW PHOTO ON CONSOLE** [more info](https://www.raspberrypi-spy.co.uk/2017/02/how-to-display-images-on-raspbian-command-line-with-fbi/)
+1. Install fbi
+```
+sudo apt-get -y install fbi
+```
+2. Commmon command
+```
+#view a single image
+fbi -a myphoto.jpg
+#view all images
+fbi -a *.jpg
+#presentation all images every 5secs
+fbi -a -t 5 *.jpg
+```
+
+
 **AUTORUN PY**
 1. create a sh file (chmod 755)
 ```
