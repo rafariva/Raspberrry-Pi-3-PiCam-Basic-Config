@@ -81,7 +81,7 @@ Example Code for Video:
 ```
 sudo apt-get -y install fbi
 ```
-2. Commmon command
+2. Common command
 ```
 #view a single image
 fbi -a myphoto.jpg
@@ -101,11 +101,11 @@ fbi -a -t 5 *.jpg
 
 python3 /home/pi/script.py
 ```
-2. create a crontab: crontab -e
-3. add at the end:   sh /home/pi/launcher.sh
+2. create auto task: sudo crontab -e
+3. add at the end:   sh /home/pi/script.sh
 
 
-**LIBRARIES**
+**Optional LIBRARIES**
 
 ```
 pip3 install tensorflow
