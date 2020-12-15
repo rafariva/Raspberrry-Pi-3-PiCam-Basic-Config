@@ -107,8 +107,8 @@ o
 4. add at the end:   @reboot python3 /home/pi/code.py &
 
 For kill process:
-1. Find process: top
-2. kill -i <PID>
+1. Find process (PID): top
+2. kill -i PID
 
 
 **Optional LIBRARIES**
