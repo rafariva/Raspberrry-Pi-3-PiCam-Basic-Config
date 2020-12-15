@@ -99,10 +99,16 @@ fbi -a -t 5 *.jpg
 ```
 #!/bin/sh
 
-python3 /home/pi/script.py
+python3 /home/pi/script.py &
 ```
 2. create auto task: sudo crontab -e
-3. add at the end:   sh /home/pi/script.sh
+3. add at the end:   @reboot sh /home/pi/script.sh
+o
+4. add at the end:   @reboot python3 /home/pi/code.py &
+
+For kill process:
+1. Find process: top
+2. kill -i <PID>
 
 
 **Optional LIBRARIES**
