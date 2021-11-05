@@ -110,6 +110,22 @@ For kill process:
 2. kill -i PID
 
 
+**REMOVE OLD FILES**
+1. Enter to cron task
+```
+sudo crontab -e
+```
+2. Set when to execute, the folder, files and backdays to delete
+```
+0 5 * * * sudo find /var/lib/logs -name "*.log" -type f -mtime +5
+```
+This mean every day at 5am. remove all .log files with 5 days older from logs folder.
+
+
+**WEBCAMERA MOTION**
+Follow this link: https://www.instructables.com/Raspberry-Pi-Motion-Detection-Security-Camera/
+
+
 **Optional LIBRARIES**
 
 ```
